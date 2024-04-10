@@ -1,0 +1,164 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+    background-color: darkgreen;
+    color: white;
+    margin-bottom: 0px;
+}
+h3{
+    text-align: center;
+    background-color: limegreen;
+    margin-top: 20px;
+}
+h4{
+    font-size: 20px;
+    background-color: lightgreen;
+}
+h5{
+    margin: 0px;
+}
+/* HEADER */
+    /* NAV */
+    .navbar{
+        position: sticky;
+        top: 0px;
+        z-index: 2;
+    }
+    .logo{
+        width: 150px;
+    }
+    .logo img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .boton-buscar:hover{
+        background-color: darkgreen;
+    }
+/* HEADER HASTA ACÁ*/
+    /* INDEX */
+    .carousel-item{
+        width: 100%;
+        height: 400px;
+    }
+    .carousel-item img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .section-productos{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .card{
+        margin-top: 15px;
+        width: 200px;
+    }
+    .card-title{
+        justify-content: left;
+        display: inline;
+    }
+    .card-body h5{
+        text-align: right;
+    }
+    .boton-comprar{
+        position: absolute;
+        top: 3px;
+        right: 3px;
+        background-color: darkgreen;
+        border-color: limegreen;
+    }
+    .boton-comprar h5{
+        font-size: 15px;
+    }
+    .boton-comprar:hover{
+        background-color: limegreen;
+        border-color: darkgreen;
+    }
+    .iframe{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    /* PRODUCTOS */
+    .bread-crumb{
+        margin-left: 10px;
+    }
+    .bread-crumb a{
+        text-decoration: none;
+        color: black;
+    }
+
+    /* REGISTRO */
+    .section-registro{
+        /* display: flex; */
+        margin-bottom: 15px;
+        justify-content: space-around;
+    }
+    .portada-registro{
+        width: 100%;
+        height: 400px;
+    }
+    .portada-registro img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .div-registro{
+        margin-bottom: 10px;
+    }
+    .input{
+        display: flex;
+        justify-content: center;
+    }
+    .div-registro input{
+        width: 98%;
+    }
+    .div-registro h4{
+        text-align: center;
+        margin: 0px;
+    }
+    .boton-registro{
+        display: flex;
+        justify-content: center;
+    }
+    .boton-registro button{
+        border-radius: 5px;
+        color:white;
+        background-color: darkgreen;
+        border-color: limegreen;
+        margin-top: 5px;
+    }
+    .boton-registro button:hover{
+        background-color: limegreen;
+        border-color: darkgreen;
+    }
+    /* FOOTER */
+    .div-footer{
+        display: flex;
+        justify-content: space-around;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    #copyright{
+        text-align: right;
+        margin: 0px;
+    }
+
+/* MEDIA */
+@media only screen and (max-width: 450px){
+    .card{
+        width: 150px;
+    }
+    .boton-comprar h5{
+        font-size: 12px;
+    }
+    h4{
+        font-size: 15px;
+    }
+    h5{
+        font-size: 15px;
+    }
+}
